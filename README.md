@@ -2,3 +2,4 @@
 
 Simple SwiftUI App to test Remote API Call and animations in SwiftUI
 
+![](demoGif.gif)

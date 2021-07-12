@@ -11,6 +11,10 @@
 		92459E3225ADD68100405C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E3125ADD68100405C09 /* ContentView.swift */; };
 		92459E3425ADD68300405C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92459E3325ADD68300405C09 /* Assets.xcassets */; };
 		92459E3725ADD68300405C09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92459E3625ADD68300405C09 /* Preview Assets.xcassets */; };
+		92459E4025ADD69800405C09 /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E3F25ADD69800405C09 /* APIFetcher.swift */; };
+		92459E4325ADD6F600405C09 /* RickMortyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E4225ADD6F500405C09 /* RickMortyAPI.swift */; };
+		92459E4825ADDF0F00405C09 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E4725ADDF0F00405C09 /* NetworkImage.swift */; };
+		92459E4B25ADDFF400405C09 /* CharacterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459E4A25ADDFF400405C09 /* CharacterCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		92459E3325ADD68300405C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92459E3625ADD68300405C09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92459E3825ADD68300405C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92459E3F25ADD69800405C09 /* APIFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetcher.swift; sourceTree = "<group>"; };
+		92459E4225ADD6F500405C09 /* RickMortyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAPI.swift; sourceTree = "<group>"; };
+		92459E4725ADDF0F00405C09 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		92459E4A25ADDFF400405C09 /* CharacterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				92459E3325ADD68300405C09 /* Assets.xcassets */,
 				92459E3825ADD68300405C09 /* Info.plist */,
 				92459E3525ADD68300405C09 /* Preview Content */,
+				92459E3F25ADD69800405C09 /* APIFetcher.swift */,
+				92459E4225ADD6F500405C09 /* RickMortyAPI.swift */,
+				92459E4725ADDF0F00405C09 /* NetworkImage.swift */,
+				92459E4A25ADDFF400405C09 /* CharacterCard.swift */,
 			);
 			path = RickAndMorty;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				92459E3225ADD68100405C09 /* ContentView.swift in Sources */,
+				92459E4825ADDF0F00405C09 /* NetworkImage.swift in Sources */,
 				92459E3025ADD68100405C09 /* RickAndMortyApp.swift in Sources */,
+				92459E4B25ADDFF400405C09 /* CharacterCard.swift in Sources */,
+				92459E4025ADD69800405C09 /* APIFetcher.swift in Sources */,
+				92459E4325ADD6F600405C09 /* RickMortyAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
